@@ -1,0 +1,13 @@
+curl -X GET \
+-H "Content-type: application/json" \
+-H "Accept: application/json" \
+-d '{"user":"0x72e738ae000410Bcb9bA88A7CEB476B714bf7143","token":"0x5cbAb697c2440E3dCe5bebe48eC7Ef49baE1E699"}' \
+"http://127.0.0.1:11000/balance"
+
+camp address: 0x04526633175e53542686d56B5c92c7e1fc02f5B2
+
+curl -X GET \
+-H "Content-type: application/json" \
+-H "Accept: application/json" \
+-d '{"address":"0x04526633175e53542686d56B5c92c7e1fc02f5B2","index":"0"}' \
+"http://127.0.0.1:11000/nextCycle"

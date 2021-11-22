@@ -1,0 +1,8 @@
+.*
+!/.gitignore
+node_modules
+contracts/archive
+
+#Hardhat files
+cache
+artifacts

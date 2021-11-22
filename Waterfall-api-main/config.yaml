@@ -1,0 +1,33 @@
+port: 11000
+
+platform_address: ""
+
+campaignContinuousCyclesAddress : ""
+
+rpc:
+  - "https://data-seed-prebsc-1-s1.binance.org:8545/"
+  - "https://data-seed-prebsc-2-s1.binance.org:8545/"
+  - "https://data-seed-prebsc-1-s2.binance.org:8545/"
+  - "https://data-seed-prebsc-2-s2.binance.org:8545/"
+  - "https://data-seed-prebsc-1-s3.binance.org:8545/"
+  - "https://data-seed-prebsc-2-s3.binance.org:8545/"
+
+basic_tokens:
+  - symbol: "BNB"
+    address: ""
+    decimals: 18
+  - symbol: "ETH"
+    address: "0x71CEe62E72c77c248d3aBC33080267C650E243d1"
+    decimals: 18
+  - symbol: "BUSD"
+    address: "0xFCcea142736EB78e432F441FAa21c1FB44624A93"
+    decimals: 18
+  - symbol: "BTCB"
+    address: "0x2Aa1775FFdC3A70D0EeE1c292742bE912439234f"
+    decimals: 18
+  - symbol: "DOGE"
+    address: "0xe8771362e9cD2F0127010264291631Eb95486259"
+    decimals: 8
+  - symbol: "WTF"
+    address: "0x8b617e85d3582d7dbef58863c804dae157963314"
+    decimal: 18

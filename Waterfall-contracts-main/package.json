@@ -1,0 +1,32 @@
+{
+  "name": "waterfall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@chainlink/contracts": "^0.1.7",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "3.4",
+    "@openzeppelin/contracts-ethereum-package": "^3.0.0",
+    "@openzeppelin/contracts-upgradeable": "3.2.0",
+    "@openzeppelin/hardhat-upgrades": "^1.8.2",
+    "@pancakeswap/pancake-swap-lib": "^0.0.1",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "chai": "^4.3.4",
+    "crypto-random-string": "^3.3.1",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.1.4",
+    "fs": "^0.0.1-security",
+    "hardhat": "^2.3.0",
+    "prettier": "^2.3.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.13"
+  },
+  "dependencies": {}
+}
